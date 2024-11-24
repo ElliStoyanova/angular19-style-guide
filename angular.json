@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular19-custom-theme-app": {
+    "angular19-style-guide": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/angular19-custom-theme-app",
+            "outputPath": "dist/angular19-style-guide",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angular19-custom-theme-app:build:production"
+              "buildTarget": "angular19-style-guide:build:production"
             },
             "development": {
-              "buildTarget": "angular19-custom-theme-app:build:development"
+              "buildTarget": "angular19-style-guide:build:development"
             }
           },
           "defaultConfiguration": "development"

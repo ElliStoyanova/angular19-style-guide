@@ -1,5 +1,5 @@
 {
-  "name": "angular19-custom-theme-app",
+  "name": "angular19-style-guide",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:angular19-custom-theme-app": "node dist/angular19-custom-theme-app/server/server.mjs"
+    "serve:ssr:angular19-style-guide": "node dist/angular19-style-guide/server/server.mjs"
   },
   "private": true,
   "dependencies": {
